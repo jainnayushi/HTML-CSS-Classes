@@ -1,0 +1,36 @@
+h2 {
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: rgb(184, 223, 255); */
+
+  /* border: 2px solid black;
+
+  background-color: rgb(128, 196, 255); */
+  /* border-top-style: dotted;
+  border-left-style: solid;
+  border-bottom-style: dashed;
+  border-right-style: groove; */
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  border: 2px solid black;
+}
+
+h1 {
+  background-color: rgb(189, 221, 248);
+  border: 2px solid black;
+  /* width: 50%; */
+  /* margin-bottom: 100px; */
+  /* margin: top right bottom left */
+  /* MARGIN: T (RL) B */
+  /* margin: 10px 30px 50px; */
+  /* margin : (TB) (RL) */
+  /* margin: 10px 30px; */
+  /* margin : TRBL */
+  /* margin: 10px auto; */
+
+  padding: 30px;
+}
