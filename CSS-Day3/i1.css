@@ -1,0 +1,61 @@
+/* a:link {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited {
+  background-color: rgb(235, 228, 228);
+  color: black;
+}
+a:hover,
+a:active {
+  background-color: rgb(51, 2, 2);
+  color: white;
+} */
+/* ```
+  ```css */
+a:link,
+a:visited {
+  background-color: white;
+  color: black;
+  /* border: 2px solid green; */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: green;
+  color: white;
+}
+
+td {
+  border: 2px solid black;
+  width: 30%;
+  height: 30px;
+  border-collapse: collapse;
+  background-color: aqua;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 15px;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+ul {
+  border: 2px solid black;
+}
+ul {
+  list-style-type: circle;
+  /* list-style-image: url("Assets/Fonts.png"); */
+
+  list-style-position: outside;
+  /* list-style-type: none; */
+
+  /* list-style: type position image;
+    list-style: square inside url("sqpurple.gif"); */
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Arial", Timess, monospace; */
+}
+
+div {
+  /* font-weight: 500; */
+  /* font-style: oblique; */
+
+  /* color: red; */
+  text-align: justify;
+  /* text-align-last: center; */
+  /* direction: rtl;
+  unicode-bidi: bidi-override; */
+  /* vertical-align: baseline; */
+  text-transform: capitalize;
+  /* text-indent: 30px; */
+  /* letter-spacing: 3px; */
+  /* white-space: nospace; */
+  box-sizing: border-box;
+  /* text-shadow: 2px 20px 5px #424535; */
+  background-color: rgb(144, 197, 244);
+  width: 400px;
+  padding: 2px;
+  border: 2px solid black;
+  margin: 50px;
+  height: 30%;
+  font-size: larger;
+  /* outline: 10px solid yellow;
+  outline-offset: 20px; */
+}
+a {
+  /* text-decoration-color: aqua;
+  text-decoration-line: overline; */
+  font-size: larger;
+  /* text-decoration:  ; */
+  /* text-decoration: overline red double 5px; */
+}
+div img {
+  /* vertical-align: baseline; */
+}
+/* h1 {
+  width: inherit;
+} */
