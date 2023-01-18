@@ -250,5 +250,4 @@ p.ex1 {
 
 ># Padding
 * Padding is used to create space around an element's content, inside of any defined borders.
-* Everything same like margin
-
+* Everything same like margin except `auto is not applicable in padding`

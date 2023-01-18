@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <head>
+    <style>
+      /* div ~ p {
+        background-color: yellow;
+      } */
+      p ~ h1 {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>General Sibling Selector</h2>
+    <div>
+      <h2>H2</h2>
+      <h1>Heading 1</h1>
+      <p>
+        The general sibling selector (~) selects all elements that are next
+        siblings of a specified element.
+      </p>
+      <p>Paragraph 1.</p>
+      <h1>yes Heading 2</h1>
+    </div>
+    <div>
+      <p>Paragraph 2.</p>
+    </div>
+    <h1>Heading 3</h1>
+
+    <code>Some code.</code>
+    <h1>Heading 4</h1>
+
+    <p>Paragraph 4.</p>
+  </body> -->
+
+  <head>
+    <style>
+      /* :not(h1) {
+        color: blue;
+      } */
+      /* ::selection {
+        color: red;
+        background: yellow;
+      }
+      p::first-letter {
+        color: #ff0000;
+        font-size: 30px;
+      } */
+      p {
+        background-color: yellow;
+      }
+      #abc {
+        background-color: red;
+      }
+      .xyz {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="abc" class="xyz" style="background-color: blue">This is 1 text.</p>
+    <p>This is some text.</p>
+
+    <div>
+      <p>This is some texttttt.</p>
+      <p>This is some text.</p>
+    </div>
+    <h1>heading</h1>
+    <div>
+      <p>This is some text.</p>
+      <p>This is some text.</p>
+    </div>
+  </body>
+</html>

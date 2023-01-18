@@ -1,0 +1,54 @@
+/* position */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 200vh;
+  width: 100vw;
+  padding: 2rem;
+}
+.parent-box {
+  /* position: relative; */
+  width: 500px;
+  height: 1000px;
+  background-color: #272727;
+  padding: 1rem;
+}
+.child-box-1 {
+  width: 250px;
+  height: 250px;
+  background-color: #ff652f;
+  /* position: static; */
+
+  /* position: relative;
+  top: 100px; */
+  /* 50px from side   */
+  /* right: 50px; */
+  /* left: 60px; */
+
+  /* relative to html  */
+  /* position: absolute; */
+  /* left: 0; */
+  /* top: 100px; */
+
+  /* relative to parent  */
+  /* position: absolute; */
+  /* left: 0; */
+  /* top: 100px; */
+
+  /* position: fixed;
+  left: 20px; */
+}
+.child-box-2 {
+  /* position: relative;
+  z-index: 1; */
+
+  /* position: sticky;
+  top: 0; */
+
+  width: 250px;
+  height: 250px;
+  background-color: #14a76c;
+}
